@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Lezione HTML esercizio attributi</title>
+</head>
+
+<body>
+    <h1 style="color: orchid;">Esercizio attributi</h1>
+    <section>
+        <ol> 
+            <li><h2 style="color:royalblue;"><small>Pulsante disabilitato</small></h2>
+                <div>
+            <button type="button" disabled><b>Don't click this button!</b></button>
+                </div></li>
+            <li><h2 style="color:royalblue;"><small>Input numerico 0-100 con step di 2</small></h2>
+                <div>
+                <label for="number">Seleziona un numero pari da compreso da 0 a 100</label>
+                <input id="number" type="number" min="0" max="100" step="2"/>
+                </div></li>
+            <li><h2 style="color:royalblue;"><small>Crea checkbox gia selezionata</small></h2>
+                <div>
+                <input id="checkbox" type="checkbox" checked/>
+	            <label for="checkbox">Checkbox</label>
+                </div></li>
+            <li><h2 style="color:royalblue;"><small>Input per date</small></h2>
+                <div>
+                    <label for="data">Inserire la data:</label>
+                    <input type="date" id="data" name="data">                
+                </div></li>
+        </ol>
+    </section>
+</body>
+
+</html>
